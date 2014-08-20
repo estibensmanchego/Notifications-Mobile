@@ -1,0 +1,51 @@
+#navmenu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#navmenu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline; }
+#navmenu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline; padding: 5px 20px 5px 20px}
+#navmenu a {text-decoration:none; color: blue; }
+#navmenu a:hover {color: purple; }
+#navmenu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline; }
+#navmenu ul li a {text-decoration:none;  margin: 4px;
+	padding: 5px 20px 5px 20px; color: blue;
+	background: pink;}
+#navmenu ul li a:hover {color: purple;
+	background: yellow; }
+
+	fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+    }
+    select {
+      width: 200px;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+.ui-dialog .ui-state-error { padding: .3em; }
+    .validateTips { border: 1px solid transparent; padding: 0.3em; }    
+
+.categorias {
+	height: 120px;
+}
+.categorias .cat_col {
+	float: left;	
+	margin-right: 20px;
+}
+
+.alumtitle p{
+	text-align: center;
+}
+.alumcampos .aluminputs, .alumcampos .alumlabels{ width: 100%; height: 50px; }
+.alumcampos .aluminputs div, .alumcampos .alumlabels div{
+	float: left;
+	width: 33%;
+}
