@@ -49,3 +49,65 @@
 	float: left;
 	width: 33%;
 }
+
+.secincritos{
+	float: left;
+	width: 90px;
+}
+
+.secdescrip {
+	float: left;
+	width: 100%;
+}
+
+#listtable {
+
+}
+
+#listtable .items .titcount{
+	background-color: #007aff; 
+	height: 30px;
+	width: 100%;
+}
+
+#listtable .items .titcount .nomcategoria {
+	color: white;
+	margin: 5px;
+	float: left;
+	display: block;
+}
+#listtable .items .titcount .counter{
+	background-color: white;
+	color: black;
+	margin: 5px;
+	float: right;
+	display: block;
+}
+#listtable .items {
+	height: 77px;
+	border: 1px solid #ccc;	
+}
+
+#listtable .items .desopts {
+
+}
+#listtable .items .desopts .descr{
+	float: left;
+	margin: 5px;
+}
+#listtable .items .desopts .descr span {
+	color: #007aff;
+	font-size: 17px;
+}
+#listtable .items .desopts .descr i{
+	font-size: 12px;
+}
+#listtable .items .desopts .opts{
+	float: right;
+}
+#listtable .items .desopts .opts a{
+	margin: 10px 5px;
+	display: block;
+	float: left;	
+}
+#listtable

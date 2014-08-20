@@ -46,9 +46,47 @@
 								<option value="1">1ro Primaria</option>
 							</select>	
 							<button class="add-cat" title="Agregar">+</button>						
-						</div>					
+						</div>
+						<button id="confirm" title="Confirmar">Confirmar</button>				
 					</div>
 				</form>		
+
+			<div class="alumtable">
+				<div class="secincritos">
+						Incrito en:
+				</div>
+				<div class="secdescrip">
+					<ul id="listtable">
+						<li class="items">
+							<div class="titcount">
+								<span class="nomcategoria">Academico</span>
+								<span class="counter">1</span>
+							</div>
+							<div class="desopts">
+								<div class="descr">
+									<span>Primaria>1ero>Salon A</span><br>
+									<i>nombre de administrador que incribio</i>
+								</div>
+								<div class="opts">
+									<div class="contsopts">
+										<a href="">Editar</a>  <a href="">Eliminar</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								
+							</div>
+							<div>
+								
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="clear"></div>
+			</div>
 				
 			<div id="dialog-form" title="Crear nueva categoría">
 			  <p class="validateTips">Campos requeridos.</p>
