@@ -30,8 +30,8 @@ function notificationsmobile_admin_enqueue_script() {
 	wp_enqueue_style("jquery-ui-css", "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/flick/jquery-ui.min.css");
 	wp_enqueue_script( 'jquery-ui-core' );
 	wp_enqueue_script( 'jquery-ui-tabs' );
-	wp_enqueue_script( 'jquery-ui-autocomplete' );
 	wp_enqueue_script( 'jquery-ui-dialog' );
+	wp_enqueue_script( 'jquery-ui-datepicker' );
 
 	wp_enqueue_style( 'notificationsmobile_css', NOTIMOBILE_URI. '/inc/css/notificationsmobile.css', false ); 
 	wp_enqueue_script( 'notificationsmobile_js', NOTIMOBILE_URI. '/inc/js/notificationsmobile.js', false );	
@@ -88,7 +88,9 @@ function notificationsmobile_page()
 								<option value="1">1ro Primaria</option>
 							</select>	
 							<button class="add-cat" title="Agregar">+</button>						
-						</div>					
+						</div>	
+
+						<div class="clear"></div>				
 					</div>
 				</form>		
 				

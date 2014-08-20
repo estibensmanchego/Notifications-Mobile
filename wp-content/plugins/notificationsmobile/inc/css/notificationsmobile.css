@@ -34,7 +34,7 @@
     .validateTips { border: 1px solid transparent; padding: 0.3em; }    
 
 .categorias {
-	height: 120px;
+	margin-bottom: 25px;
 }
 .categorias .cat_col {
 	float: left;	
@@ -84,7 +84,6 @@
 	display: block;
 }
 #listtable .items {
-	height: 77px;
 	border: 1px solid #ccc;	
 }
 
@@ -110,4 +109,32 @@
 	display: block;
 	float: left;	
 }
-#listtable
+
+.vistprev{
+	margin-top: 15px;
+	padding: 10px;
+	background: rgb(253, 253, 221);
+}
+.vistprev strong {
+	font-weight: bold;
+}
+
+#mobitable thead tr th{color: #fff;}
+#mobitable tbody tr td{border-bottom: 1px solid #ccc}
+#mobitable tbody tr td input.full, #mobitable tbody tr td textarea.full{width: 100%}
+#mobitable tbody tr td textarea{height: 75px;}
+
+#listmatriculas li {position: relative;}
+#listmatriculas li span {
+	color: red;
+	cursor: pointer;
+	border: 1px solid #F1EEEE;
+	display: block;
+	height: 14px;
+	width: 15px;
+	text-align: center;
+	line-height: 12px;
+	position: absolute;
+	top: 1px;
+	right: 0px;
+}

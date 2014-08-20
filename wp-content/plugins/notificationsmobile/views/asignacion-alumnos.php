@@ -47,8 +47,13 @@
 							</select>	
 							<button class="add-cat" title="Agregar">+</button>						
 						</div>
-						<button id="confirm" title="Confirmar">Confirmar</button>				
+						<button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"><span class="ui-button-text">Confirmar</span></button>				
+						<div class="vistprev">
+							<strong>Vista previa:</strong><br>
+							<i>Academico > Primaria > Piano > 1ro Primaria</i>
+						</div>
 					</div>
+					<div class="clear"></div>
 				</form>		
 
 			<div class="alumtable">
