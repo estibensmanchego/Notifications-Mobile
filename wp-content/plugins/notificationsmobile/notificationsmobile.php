@@ -46,66 +46,26 @@ function notificationsmobile_page()
 		<p>Texto de Ayuda</p>
 		<div id="tabs">
 		    <ul>
-		        <li><a href="#tabs-1">Alta áreas</a></li>
+		        <li><a href="<?php echo NOTIMOBILE_URI; ?>/views/alta-areas.php">Alta áreas</a></li>
 		        <li><a href="<?php echo NOTIMOBILE_URI; ?>/views/asignacion-alumnos.php">Asignacion de alumnos</a></li>
 		        <li><a href="<?php echo NOTIMOBILE_URI; ?>/views/asignacion-dispositivos.php">Asignacion de dispositivos</a></li>
 		        <li><a href="<?php echo NOTIMOBILE_URI; ?>/views/envio-notificaciones.php">Envio de avisos</a></li>
 		        <li><a href="<?php echo NOTIMOBILE_URI; ?>/views/estadisticas.php">Estadisticas</a></li>
 		    </ul>
 		    <div id="tabs-1">
-		        <p>Descripcion de...</p>
-
-				<form action="#">
-					<div class="categorias">
-				  		<div class="cat_col">
-							<label for="speed">Academico:</label>
-							<select name="academico" id="academico">
-								<option value="0">--Seleccionar--</option>
-								<option value="1">Academico</option>
-							</select>
-							<button class="add-cat" title="Agregar">+</button>
-						</div>
-				 		<div class="cat_col">
-							<label for="files">Categoría:</label>
-							<select name="cat" id="cat">
-								<option value="0">--Seleccionar--</option>
-							    <option value="1">Primaria</option>
-							</select>		
-							<button class="add-cat" title="Agregar">+</button>		 			
-				 		</div>
-						<div class="cat_col">
-							<label for="number">Sub Categoría:</label>
-							<select name="subcat" id="subcat">
-								<option value="0">--Seleccionar--</option>
-								<option value="1">Piano</option>
-							</select>
-							<button class="add-cat" title="Agregar">+</button>
-						</div>
-						<div class="cat_col">
-							<label for="number">Nivel:</label>
-							<select name="nivel" id="nivel">
-								<option value="0">--Seleccionar--</option>
-								<option value="1">1ro Primaria</option>
-							</select>	
-							<button class="add-cat" title="Agregar">+</button>						
-						</div>	
-
-						<div class="clear"></div>				
-					</div>
-				</form>		
-				
-				<div id="dialog-form" title="Crear nueva categoría">
-				  <p class="validateTips">Campos requeridos.</p>
-				  <form>
-				    <fieldset>
-				      <label for="name">Categoría:</label>
-				      <input type="text" name="categoria" id="categoria" placeholder="Ingrese categoría" class="text ui-widget-content ui-corner-all">
-				    </fieldset>
-				  </form>
-				</div>
-
+		    <!--Contend load here-->
 		    </div>	    
-		</div>		
+		</div>	
+
+		<div id="dialog-form" title="Crear nueva categoría">
+		  	<p class="validateTips">Campos requeridos.</p>
+		  	<form>
+		    	<fieldset>
+		      		<label for="name">Categoría:</label>
+		      		<input type="text" name="categoria" id="categoria" placeholder="Ingrese categoría" class="text ui-widget-content ui-corner-all">
+		    	</fieldset>
+		  	</form>
+		</div>			
 	</div>
 <?php
 }
