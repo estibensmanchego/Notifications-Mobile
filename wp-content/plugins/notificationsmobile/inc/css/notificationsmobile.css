@@ -1,34 +1,13 @@
-#navmenu ul {margin: 0; padding: 0; 
-	list-style-type: none; list-style-image: none; }
-#navmenu ul {margin: 0; padding: 0; 
-	list-style-type: none; list-style-image: none; }
-#navmenu li {display: inline; }
-#navmenu ul {margin: 0; padding: 0; 
-	list-style-type: none; list-style-image: none; }
-#navmenu li {display: inline; padding: 5px 20px 5px 20px}
-#navmenu a {text-decoration:none; color: blue; }
-#navmenu a:hover {color: purple; }
-#navmenu ul {margin: 0; padding: 0; 
-	list-style-type: none; list-style-image: none; }
-#navmenu li {display: inline; }
-#navmenu ul li a {text-decoration:none;  margin: 4px;
-	padding: 5px 20px 5px 20px; color: blue;
-	background: pink;}
-#navmenu ul li a:hover {color: purple;
-	background: yellow; }
-
-	fieldset {
-      border: 0;
-    }
-    label {
-      display: block;
-    }
-    select {
-      width: 200px;
-    }
-    .overflow {
-      height: 200px;
-    }
+/*Base CSS UI Changue*/
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	color: #1EB53A;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	background-color: #1EB53A;
+}
+.ui-front {
+	z-index: 9999;
+}
 
 .ui-dialog .ui-state-error { padding: .3em; }
     .validateTips { border: 1px solid transparent; padding: 0.3em; }    
@@ -39,6 +18,18 @@
 .categorias .cat_col {
 	float: left;	
 	margin-right: 20px;
+}
+
+.categorias .area {	
+	float: none;
+	margin: 20px;
+} 
+
+.categorias .area label {
+	width: 120px;
+	display: block;
+	float: left;
+	line-height: 31px;	
 }
 
 .alumtitle p{

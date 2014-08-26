@@ -1,20 +1,5 @@
 jQuery(document).ready(function($) {
-
-	jQuery( "#tabs" ).tabs({
-      beforeLoad: function( event, ui ) {
-        ui.jqXHR.error(function() {
-          ui.panel.html(
-            "Couldn't load this tab. We'll try to fix this as soon as possible. " +
-            "If this wouldn't be a demo." );
-        });
-      },
-      load: function ( event, ui ) {
-      	DIALOG.anyWhere();
-      	DIALOG.loadDialog();
-      	DIALOG.hoverDelete();
-      }
-    });
-
+	
 	//Jquery UI Dialog
 	var DIALOG = {
 		anyWhere: function () {
@@ -58,9 +43,17 @@ jQuery(document).ready(function($) {
 			valid = valid && checkRegexp( categoria, /^[aA-zZ]([0-9a-z_\s])+$/i, "Categoria puede consistir en a-z, 0-9, subraya, espacios y debe comenzar con una letra." );
 
 			if ( valid ) {
-				$( "#users tbody" ).append( "<tr>" +
-				  "<td>" + categoria.val() + "</td>" +
-				"</tr>" );
+				//Ajax WP
+				var data = {
+					'action': 'my_action',
+					'whatever': 1234
+				};
+
+				// since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
+				$.post(ajaxurl, data, function(response) {
+					$( "#academico" ).append( "<option>" + response + "</option>" );					
+				});
+
 				dialog.dialog( "close" );
 			}
 				return valid;
@@ -110,6 +103,6 @@ jQuery(document).ready(function($) {
 
     // lOAD DIALOG
     DIALOG.anyWhere();
-	DIALOG.loadDialog();
+	DIALOG.loadDialog();	
 	
 });

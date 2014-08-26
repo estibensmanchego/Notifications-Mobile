@@ -2,7 +2,7 @@
 
 				<form action="#">
 					<div class="categorias">
-				  		<div class="cat_col">
+				  		<div class="cat_col area">
 							<label for="speed">Academico:</label>
 							<select name="academico" id="academico">
 								<option value="0">--Seleccionar--</option>
@@ -10,7 +10,7 @@
 							</select>
 							<button class="add-cat" title="Agregar">+</button>
 						</div>
-				 		<div class="cat_col">
+				 		<div class="cat_col area">
 							<label for="files">Categoría:</label>
 							<select name="cat" id="cat">
 								<option value="0">--Seleccionar--</option>
@@ -18,7 +18,7 @@
 							</select>		
 							<button class="add-cat" title="Agregar">+</button>		 			
 				 		</div>
-						<div class="cat_col">
+						<div class="cat_col area">
 							<label for="number">Sub Categoría:</label>
 							<select name="subcat" id="subcat">
 								<option value="0">--Seleccionar--</option>
@@ -26,7 +26,7 @@
 							</select>
 							<button class="add-cat" title="Agregar">+</button>
 						</div>
-						<div class="cat_col">
+						<div class="cat_col area">
 							<label for="number">Nivel:</label>
 							<select name="nivel" id="nivel">
 								<option value="0">--Seleccionar--</option>

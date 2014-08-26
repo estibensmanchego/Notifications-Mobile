@@ -50,7 +50,7 @@
 											<li>Jhon Snow <span>x</span></li>
 										</ul>
 									</td>
-									<td><input type="checkbox" name="estado" title="Estado"></td>
+									<td>Activo: Si</td>
 									<td><a href="">Eliminar</a></td>
 								</tr>	
 								<tr>
@@ -64,7 +64,7 @@
 											<li>Jhon Snow <span>x</span></li>
 										</ul>
 									</td>
-									<td><input type="checkbox" name="estado" title="Estado"></td>
+									<td>Activo: No</td>
 									<td><a href="">Eliminar</a></td>
 								</tr>
 							</tbody>

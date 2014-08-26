@@ -93,12 +93,3 @@
 				<div class="clear"></div>
 			</div>
 				
-			<div id="dialog-form" title="Crear nueva categoría">
-			  <p class="validateTips">Campos requeridos.</p>
-			  <form>
-			    <fieldset>
-			      <label for="name">Categoría:</label>
-			      <input type="text" name="categoria" id="categoria" placeholder="Ingrese categoría" class="text ui-widget-content ui-corner-all">
-			    </fieldset>
-			  </form>
-			</div>
